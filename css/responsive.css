@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@media screen and (max-width: 992px) {
+    .navbar-top {
+        padding: 10px 10px;
+    }
+
+    .navbar-down {
+        padding: 3px 10px;
+    }
+
+    .carousel-caption {
+        background-color: rgba(200, 200, 200, 0.2);
+        padding: 25px;
+        width: 50%;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .navbar-down .menu-ul .menu-li .menu-link:hover {
+        transform: scale(1);
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+    
+    .carousel-caption p {
+        font-size: 15px;
+    }
+
+    .btn-play {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+
+    .btn i {
+        font-size: 10px;
+    }
+
+    .group-search {
+        width: 40%;
+        display: block;
+    }
+    
+    .btn-banner-prev, .btn-banner-next {
+        width: 8%;
+    }
+
+    .btn-banner-prev .arrow-banner, .btn-banner-next .arrow-banner {
+        font-size: 30px;
+    }
+
+    .product-card {
+        height: 100%;
+        width: 100%;
+    }
+
+    .product-card .product-img-card {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-download .ri-smartphone-line {
+        font-size: 15px;
+    }
+    .btn-download-text {
+        display: none;
+    }
+    
+    .carousel-caption {
+        padding: 25px;
+        width: 80%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+    
+    .carousel-caption p {
+        font-size: 15px;
+    }
+    
+    .btn-play {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
+
+    .btn i {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .alert-new {
+        left: 10px;
+        font-size: 11px;
+    }
+    
+}
