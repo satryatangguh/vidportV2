@@ -528,3 +528,24 @@ body {
     pointer-events: auto;
     opacity: 1;
 }
+
+/* Navbar Scroll */
+.active_nav {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.active_nav .menu-ul .menu-li .menu-link, .active_nav .menu-toggler .ri-menu-line {
+    color: #FFD700;
+}
+
+.active_nav .group-search {
+    background-color: rgba(40, 40, 40, 0.9);
+}
+
+.active_nav .group-search .form-search {
+    color: #fff;
+}
+
+.active_nav .group-search .btn-search {
+    color: #FFD700;
+}
