@@ -1,4 +1,4 @@
-// Navbar top scroll
+// Navbar scroll
 const navTop = document.getElementById("navbarTop");
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 50) {
@@ -8,7 +8,6 @@ window.addEventListener('scroll', () => {
     }
 })
 
-// Navbar down scroll
 const navDown = document.getElementById("navbarDown");
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 50) {
