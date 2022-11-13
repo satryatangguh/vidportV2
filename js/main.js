@@ -1,5 +1,5 @@
 // Navbar top scroll
-const navTop = document.querySelector('.navbar-top');
+const navTop = document.getElementById("navbarTop");
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 50) {
         navTop.classList.add('active_nav');
@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
 })
 
 // Navbar down scroll
-const navDown = document.querySelector('.navbar-down');
+const navDown = document.getElementById("navbarDown");
 window.addEventListener('scroll', () => {
     if (window.scrollY >= 50) {
         navDown.classList.add('active_nav');
