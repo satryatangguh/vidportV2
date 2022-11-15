@@ -61,6 +61,7 @@ function message(){
 
     if(Name.value === '' || email.value === '' || subject.value === '' || msg.value === ''){
         danger.style.display = 'block';
+        success.style.display = 'none';
     }
     else{
         setTimeout(() => {
@@ -71,6 +72,7 @@ function message(){
         }, 2000);
 
         success.style.display = 'block';
+        danger.style.display = 'none';
     }
 
 
