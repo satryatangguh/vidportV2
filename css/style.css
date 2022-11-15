@@ -492,6 +492,13 @@ body {
 .footer .form-group .form-contact {
     margin: 0px;
     width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer .form-group .form-contact::placeholder {
+    font-weight: 600;
+    color: #bbb;
 }
 
 .footer .btn-submit {
@@ -518,6 +525,7 @@ body {
     position: absolute;
     display: none;
 }
+
 .message .danger{
     width: 100%;
     padding: 10px 17px;
