@@ -19,7 +19,7 @@ window.addEventListener('scroll', () => {
 })
 
 // Arrow Bottom to Top
-const toTop = document.querySelector(".to-top");
+const toTop = document.getElementById("scrollUp");
 window.addEventListener("scroll", () => {
     if (window.pageYOffset > 80) {
         toTop.classList.add("active");
