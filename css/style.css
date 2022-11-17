@@ -570,7 +570,7 @@ body {
 
 /* Navbar Scroll */
 .active_nav {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(41, 41, 41, 0.9);
 }
 
 .active_nav .menu-ul .menu-li .menu-link, .active_nav .menu-toggler .ri-menu-line {
@@ -578,7 +578,7 @@ body {
 }
 
 .active_nav .group-search {
-    background-color: rgba(40, 40, 40, 0.9);
+    background-color: rgba(77, 77, 77, 0.7);
 }
 
 .active_nav .group-search .form-search {
